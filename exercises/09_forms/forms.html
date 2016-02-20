@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="uk-notouch">    
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Forms</title>
+		<link rel="stylesheet" type="text/css" href="forms.css">
+	
+	<!--jQuery stylesheets and scripts required for UIkit-->
+	  	<script src="../../libraries/jquery-ui-1.11.4/external/jquery/jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="../../libraries/jquery-ui-1.11.4/jquery-ui.min.css">
+		<script src="../../libraries/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+	
+	<!--UIkit stylesheet almost flat-->
+		<link rel="stylesheet" type="text/css" href="../../libraries/uikit-2.24.3/css/uikit.almost-flat.min.css">
+		<link rel="stylesheet" type="text/css" href="../../libraries/uikit-2.24.3/css/components/form-advanced.almost-flat.min.css">
+		<link rel="stylesheet" type="text/css" href="../../libraries/uikit-2.24.3/css/components/form-file.almost-flat.min.css">
+		<link rel="stylesheet" type="text/css" href="../../libraries/uikit-2.24.3/css/components/form-password.almost-flat.min.css">
+		<link rel="stylesheet" type="text/css" href="../../libraries/uikit-2.24.3/css/components/form-select.almost-flat.min.css">
+				
+	<!--UIkit scripts including lightbox, modal and offcanvas-->
+		<script src="../../libraries/uikit-2.24.3/js/uikit.min.js"></script>
+			
+	</head>
+
+	<body class="uk-margin-large-top">
+		<div class="uk-container uk-container-center">
+
+			<h1 class"uk-panel-title uk-margin-large-top">Let's Adventure</h1>
+
+			<form class="uk-form" action="https://www.cskabe.com" method="get">
+
+				<label class="uk-form uk-form-label" for="First Name">First Name:</label>
+					<br>
+					<input type="text" name="First Name" placeholder="Joe" required>
+					<br><br>
+				<label class="uk-form-label" for="Last Name">Last Name:</label>
+					<br>
+					<input type="text" name="Last Name" placeholder="Shmoe" required>
+					<br><br>
+
+				<label for="location">Favorite Outdoor Activity:</label>
+					<br>
+					<div class="uk-margin-small-top">
+						<table class="uk-table uk-table-condensed">
+							<tr class="">
+								<td><input type="radio" name="which" value="1" checked="checked"> Climbing</td>
+								<td><input type="radio" name="which" value="4"> Hiking</td>
+								<td><input type="radio" name="which" value="2"> Biking</td>
+							</tr>
+							<tr>
+								<td><input type="radio" name="which" value="3"> Surfing</td>
+								<td><input type="radio" name="which" value="5"> Other</td>
+							</tr>
+						</table>
+						<input class="uk-margin-small-top uk-form-small" type="text"  name="pick" placeholder=" If other please signify. ">
+					</div>
+					<br>
+					<button class="uk-button" type="submit">Submit</button>
+			</form>
+
+		</div>
+	</body>
+</html>
+
+
+

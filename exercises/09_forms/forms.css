@@ -1,0 +1,28 @@
+div.uk-container {
+	width: 30%;
+	border: dashed 1px grey;
+	padding: 2%;
+	border-radius: 5px;
+	background-color: rgb(39,40,34);
+}
+
+div.uk-container:hover {
+	background-color: rgb(190,219,57);
+}
+
+input {
+	color: white;
+}
+
+.uk-table td {
+	border: none;
+}
+
+div > .uk-table td {
+	border-bottom: none;
+}
+
+div > input:hover {
+	background-color: red;
+	color: red;
+}
